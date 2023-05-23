@@ -1,0 +1,23 @@
+.family_details_page {
+    border: 2px solid;
+    margin: 10px auto;
+    width: 70vw;
+    padding: 20px;
+}
+
+.family_name_box {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    margin: 0px 20px;
+}
+
+.row_text b {
+    width: 10vw;
+    margin: 0 20px;
+}

@@ -1,0 +1,29 @@
+       .other_details_page {
+           border: 2px solid;
+           margin: 10px auto;
+           width: 70vw;
+           padding: 20px;
+       }
+
+       input {
+           margin: 10px 10px;
+       }
+
+       table {
+           margin: 20px;
+       }
+
+        button{
+        padding: 10px 50px;
+        background-color: rgb(169, 253, 169);
+        border-radius: 10px;
+        cursor: pointer;
+       }
+       .btn{
+        text-align: center;
+        margin: 20px;
+       }
+
+       button:hover{
+        background-color: rgb(48, 213, 48);
+       }

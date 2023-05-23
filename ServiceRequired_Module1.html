@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <title>Document</title>
+
+
+
+  <link rel="stylesheet" href="ServiceRequired.css">
+</head>
+
+<body>
+  <div class="title">
+    <h2>GOVERNMENT OF INDIA, MINISTRY OF EXTERNAL AFFAIRS</h2>
+    <h2>PASSPORT APPLICATION FORM</h2>
+  </div>
+  <div class="service_page">
+    <h2>1. Service Required</h2>
+
+    <div class="applybox">
+      <b> 1.1 Applying for </b>
+      <input type="radio" name="freshpassport" id="" onclick="toggleBox(false)">Fresh Password
+      <input type="radio" name="freshpassport" id="" onclick="toggleBox(true)">Re-issue Password
+    </div>
+
+    <div class="secific_reason_forreissue" id="box">
+      <div class="re_iessue">
+        <b>If re-issue, specify reason </b>
+        <div class="re_iessue_items"><input type="radio" name="secific_reason" id="">Validity Expired within 3 years/
+          Due to Expire</div>
+        <div class="re_iessue_items"><input type="radio" name="secific_reason" id="">Validity Expired more than 3 years
+          ago</div>
+        <div class="re_iessue_items"><input type="radio" name="secific_reason" id="summer"
+            onclick="toggleBox2(true)">Change in Existing Personal
+          Particulars</div>
+        <div class="re_iessue_items"><input type="radio" name="secific_reason" id="">Exhaustion of Pages</div>
+        <div class="re_iessue_items"><input type="radio" name="secific_reason" id="">Lost Passport</div>
+        <div class="re_iessue_items"><input type="radio" name="secific_reason" id="">Damaged Passport</div>
+      </div>
+    </div>
+
+    <div class="change_in_existing_person" id="box2">
+      <b> If change in existing personal particulars, specify reason(s) </b>
+      <div class="existing_person_grid">
+        <div class="existing_person_grid_child"> <input type="checkbox" name="change_in_existing" id="">Appearance</div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Signature</div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Given Name</div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Surname </div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Date of Birth
+        </div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Spouse</div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Address </div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Delete ECR</div>
+        <div class="existing_person_grid_child"><input type="checkbox" name="change_in_existing" id="">Others Please
+          specify</div>
+      </div>
+    </div>
+    <div class="app_type_box">
+      <b>1.2 Type of Application </b>
+      <input type="radio" name="typeofapplication" id="">Normal
+      <input type="radio" name="typeofapplication" id="">Tatkaal
+    </div>
+    <div class="booklet_type_box">
+      <b>1.3 Type of Passport Booklet </b>
+      <input type="radio" name="typeofapplication" id="">36 Pages
+      <input type="radio" name="typeofapplication" id="">60 Pages
+    </div>
+    <div class="pass_validity_box">
+      <b>1.4 Validity Required(For minors between 15 and 18 years) </b>
+      <input type="radio" name="typeofapplication" id="">10 Years
+      <input type="radio" name="typeofapplication" id="">Up to age 18
+    </div>
+
+    <!-- <div class="pass_validity_box"> -->
+      <div style="float: right;">
+        <a href="./ApplicantDetails_Module2.html">Next Page</a>
+      </div>
+    </div>
+  <!-- </div> -->
+</body>
+
+<script>
+  function toggleBox(show) {
+    var box = document.getElementById("box");
+
+    if (show) {
+      box.classList.remove("secific_reason_forreissue");
+    } else {
+      box.classList.add("secific_reason_forreissue");
+    }
+  }
+  function toggleBox2(show) {
+    var box = document.getElementById("box2");
+
+    if (show) {
+      box2.classList.remove("change_in_existing_person");
+    } else {
+      box2.classList.add("change_in_existing_person");
+    }
+  }
+
+</script>
+
+</html>

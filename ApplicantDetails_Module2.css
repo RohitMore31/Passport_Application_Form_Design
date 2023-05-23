@@ -1,0 +1,43 @@
+.applicant_name_box {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+.applicant_name_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.applicant_details_page {
+    border: 2px solid;
+    margin: 10px auto;
+    width: 70vw;
+    padding: 20px;
+}
+
+.name {
+    margin: 4px;
+}
+
+.name label {
+    display: block;
+}
+
+.birthplace_box {
+    display: grid;
+}
+
+.type_box {
+    margin-top: 10px;
+    display: flex;
+}
+
+.existing_person_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}

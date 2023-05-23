@@ -1,0 +1,98 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Show/Hide HTML Box on Radio Button Click</title>
+    
+</head>
+<body>
+    <h2>Show/Hide HTML Box on Radio Button Click</h2>
+    
+    <label>
+        <input type="radio" name="option" onclick="toggleBox(true)" /> Show Box
+    </label>
+    <label>
+        <input type="radio" name="option" onclick="toggleBox(false)" /> Hide Box
+    </label>
+    
+    <div id="box" class="hidden">
+        This is the HTML box.
+    </div>
+    
+    <script>
+        function toggleBox(show) {
+            var box = document.getElementById("box");
+            
+            if (show) {
+                box.classList.remove("hidden");
+            } else {
+                box.classList.add("hidden");
+            }
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagination Example</title>
+  <style>
+    .pagination {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .pagination li {
+      margin: 5px;
+    }
+    
+    .pagination li a {
+      text-decoration: none;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .pagination li a:hover {
+      background-color: #f2f2f2;
+    }
+    
+    .pagination .active a {
+      background-color: #666;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <!-- Content to paginate -->
+  </div>
+  
+  <ul class="pagination">
+    <li><a href="#" class="active">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <!-- Add more page links as needed -->
+  </ul>
+  
+  <script>
+    // JavaScript code to handle pagination logic
+  </script>
+</body>
+</html>
+
+
+<!-- function toggleBox2(show) {
+  if (document.getElementById('summer').checked == true) {
+      box2.classList.remove("change_in_existing_person");
+      console.log("hiiii")
+      // document.write("Summer radio button is selected");
+  } else {
+      box2.classList.add("change_in_existing_person");
+      console.log("hellow")
+      // document.write("Summer radio button is not selected");
+  } 
+}
+</script> -->

@@ -1,0 +1,44 @@
+.secific_reason_forreissue,
+.change_in_existing_person {
+    display: none;
+}
+
+.re_iessue {
+    padding: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.existing_person_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.existing_person_grid_child,
+.re_iessue_items {
+    margin: 7px;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.service_page {
+    border: 2px solid;
+    margin: 10px auto;
+    width: 70vw;
+    padding: 20px;
+}
+
+
+.pass_validity_box,
+.app_type_box,
+.booklet_type_box,
+.applybox {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+}

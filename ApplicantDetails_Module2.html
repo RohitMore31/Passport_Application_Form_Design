@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Applicant Details</title>
+  <link rel="stylesheet" href="ApplicantDetails.css">
+</head>
+
+<body>
+  <div class=applicant_details_page>
+    <h2>2. Applicant Details </h2>
+    <div class=applicant_name_box>
+    <table>
+      <tr>
+        <td><b>2.1 Applicant's given name</b>(Given name means First name followed by middle name(if
+          any))(initials not allowed)</td>
+      </tr>
+      <tr>
+        <td> <input type="text" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td> <b> Surname</b></td>
+      </tr>
+      <tr>
+        <td><input type="text" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td><b>2.2 Date Of Birth(DD-MM-YYYY)</b></td>
+        <td><input type="date" placeholder="Enter DOB here"></td>
+      </tr>
+      <tr>
+        <td><b>2.3 Place of birth(Village or Town or city)</b></td>
+        <td><input type="text" placeholder="Enter city here"></td>
+      </tr>
+      <tr>
+        <td>District(If born in India)</td>
+        <td><input type="text" placeholder="Enter district here"></td>
+      </tr>
+      <tr>
+        <td>State/UT(If born in India)</td>
+        <td><input type="text" placeholder="Enter state "></td>
+      </tr>
+
+    </table>
+  </div>
+
+    <div class="applicant_name_box">
+      <b>2.4 Gender</b>
+      <div class="type_box">
+        <div><input type="radio" name="gender" /> Male</div>
+        <div><input type="radio" name="gender" /> Female</div>
+        <div><input type="radio" name="gender" /> Transgender</div>
+      </div>
+    </div>
+
+    <div class="applicant_name_box">
+      <b>2.5 Marital Status</b>
+      <div class="type_box">
+        <div><input type="radio" name="maritalstatus" /> Single</div>
+        <div><input type="radio" name="maritalstatus" /> Married</div>
+        <div><input type="radio" name="maritalstatus" /> Divorced</div>
+        <div><input type="radio" name="maritalstatus" /> Widow/ Widower Separated </div>
+      </div>
+    </div>
+
+    <div class="applicant_name_box">
+      <b>2.6 Citizenship of India by</b>
+      <div class="type_box">
+        <div><input type="radio" name="citizenship" /> Birth</div>
+        <div><input type="radio" name="citizenship" /> Descent</div>
+        <div>
+          <input type="radio" name="citizenship" /> Registration/ Naturalization
+        </div>
+      </div>
+    </div>
+
+    <div class="applicant_name_box">
+      <tr>
+        <td><b>2.7 PAN(If available)</b></td>
+        <td><input type="text">   </td>
+         
+    </tr>
+    <tr>
+        <td><b>2.8 Voter Id(If available)</b></td>
+        <td><input type="text"></td>
+         
+    </tr>
+    </div>
+
+    <div class="applicant_name_box">
+      <b>2.9 Employment Type</b>
+      <div class="existing_person_grid">
+        <div><input type="checkbox" name="employment_type" /> Government</div>
+        <div><input type="checkbox" name="employment_type" /> PSU</div>
+        <div><input type="checkbox" name="employment_type" /> Statutory Body</div>
+        <div>
+          <input type="checkbox" name="employment_type" /> Retired Government
+          Servant
+        </div>
+        <div><input type="checkbox" name="employment_type" /> Self Employed</div>
+        <div><input type="checkbox" name="employment_type" /> Private</div>
+        <div><input type="checkbox" name="employment_type" /> PSU</div>
+        <div><input type="checkbox" name="employment_type" /> Homemaker</div>
+        <div><input type="checkbox" name="employment_type" /> Not Employed</div>
+        <div>
+          <input type="checkbox" name="employment_type" /> Retired-Private Service
+        </div>
+        <div><input type="checkbox" name="employment_type" /> Student</div>
+        <div><input type="checkbox" name="employment_type" /> Others Owners</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <a href="./ServiceRequired_Module1.html" style="text-decoration: none">Previous</a>
+        <a href="./FamilyDetails_Module3.html" style="float: right; text-decoration: none;">Next Page</a>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- 2.12 If employed in Government/ Statutory Body/ PSU, specify organization name -->

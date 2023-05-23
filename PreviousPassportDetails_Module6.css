@@ -1,0 +1,23 @@
+.ppassport_details_page {
+    border: 2px solid;
+    margin: 10px auto;
+    width: 70vw;
+    padding: 20px;
+}
+
+input {
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+tr {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 50px;
+}
+
+.table_box {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}

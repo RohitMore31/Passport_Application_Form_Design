@@ -1,0 +1,29 @@
+.econtact_details_page {
+    border: 2px solid;
+    margin: 10px auto;
+    width: 70vw;
+    padding: 20px;
+}
+tr {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 50px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+input {
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+td b {
+    margin-left: 40px;
+    padding: 30px 0px;
+}
+
+.table_box {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
